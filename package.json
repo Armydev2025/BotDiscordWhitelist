@@ -1,0 +1,23 @@
+{
+  "name": "dcjs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node --no-warnings index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "@discordjs/builders": "^1.10.0",
+    "@discordjs/rest": "^2.4.2",
+    "discord-api-types": "^0.37.115",
+    "discord.js": "^14.17.2",
+    "dotenv": "^16.4.7",
+    "mysql2": "^3.12.0"
+  }
+}
